@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - positive_or_negative
  *
- * Return: Always 0 (Success)
+ * Return: 0 positive_negative
  */
 int main(void)
 {
