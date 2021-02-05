@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Program that prints all possible combinations sdjkfdiu3438743rhfjdkfsdj and22
+ * main - Program that prints all possible combinations
  * of single-digit numbers
  *
  * Return: Always 0 (Success)
