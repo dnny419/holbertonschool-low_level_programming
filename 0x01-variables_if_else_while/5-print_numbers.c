@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Print numbers from 0 to 9
- * Description: printf
- * Return: void
+ * main - prints numbers (0 - 10)
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int a, b = 10;
-	
-	for (a = 0; a < b; a++)
-	{	
-		printf("%d\n", a);
+	int num;
+
+	for (num = 0; num <= 9; num++)
+	{
+		printf("%d", num);
 	}
-	
+	putchar(10);
 return (0);
 }
-
