@@ -2,7 +2,7 @@
 /**
  * main - Print the alphabet without e and q
  * Description: putchar
- * Return: Always 0 (Success)
+ * Return: void
  */
 int main(void)
 {
