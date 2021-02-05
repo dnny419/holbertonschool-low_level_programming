@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main - Print the alphabet
- *
- * Return: Always 0 (Success)
- */
+ * main - alphabet
+ * Description: use putchar
+ * Return: void
+*/
 int main(void)
 {
-	char a;
-	
-	for (a = 'a'; a <= 'z' ; a++)
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(a);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
