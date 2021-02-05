@@ -1,25 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - print all possible combinations of single-digit numbers
- *
+ * main - Program that prints all possible combinations
+ * of single-digit numbers
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int ch;
+	int num1;
 
-	for (ch = 48; ch <= 57; ch++)
+	for (num1 = 48; num1 <= 57; num1++)
 	{
-		putchar(ch);
-		if (ch < 57)
+		putchar(num1);
+		if (num1 < 57)
 		{
 			putchar(44);
 			putchar(32);
 		}
+		else
+		{
+			putchar(10);
+		}
 	}
 return (0);
 }
-
