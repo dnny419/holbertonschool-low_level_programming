@@ -22,7 +22,7 @@ void times_table(void)
 				putchar(44);
 				putchar(32);
 				putchar(32);
-				putchar(res + '0');	
+				putchar(res + '0');
 			}
 			else if (res >= 9)
 			{
