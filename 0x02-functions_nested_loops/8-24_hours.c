@@ -4,25 +4,20 @@
  * Description: 00 to 23:59
  * Return: void
  */
-
-int jack_bauer(void)
+void jack_bauer(void)
 {
-	int a, b, c, d, e, f;
+	int a, b;
 
 	for (a = 0; a < 24; a++)
 	{
-		c = a / 10 + '0';
-		d = a % 10 + '0';
 		for (b = 0; b < 60; b++)
 		{
-			e = b / 10 + '0';
-			f = b % 10 + '0';
-			_putchar(c);
-			_putchar(d);
-			_putchar(58);
-			_putchar(e);
-			_putchar(f);
-			_putchar(10);
+			_putchar(a / 10 + '0');
+			_putchar(a % 10 + '0');
+			_putchar(':');
+			_putchar(b / 10 + '0');
+			_putchar(b % 10 + '0');
+			_putchar('\n');
 		}
 	}
 }
