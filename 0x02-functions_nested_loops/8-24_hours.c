@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * jack_bauer - Program that prints hours and minutes
- *
+ * Description: 00 to 23:59
  * No return
  */
 
