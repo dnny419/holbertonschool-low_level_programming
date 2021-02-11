@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _isupper - determinate if c is a capital letter
+ * _isupper - determinate if c is upper
  * @c: variable to determinate
  * Return: Always 0. success
  */
