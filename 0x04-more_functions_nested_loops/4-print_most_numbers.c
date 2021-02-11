@@ -5,7 +5,7 @@
 * Description: 0 to 9 followed by new line
 * Return: void
 */
-int main(void)
+int print_most_numbers(void)
 {
 	int a;
 
