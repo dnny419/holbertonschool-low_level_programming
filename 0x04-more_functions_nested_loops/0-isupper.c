@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
- * _isupper - determinate if input is a capital letter
- * @input: variable to determinate
+ * _isupper - determinate if c is a capital letter
+ * @c: variable to determinate
  * Return: Always 0. success
  */
-int _isupper(int input)
+int _isupper(int c)
 {
-	if (input >= 65 && input <= 98)
+	if (c >= 65 && c <= 98)
 	{
 		return (1);
 	}
