@@ -18,18 +18,18 @@ void print_diagonal(int n)
 			{
 				if (a == b)
 				{
-					putchar(92);
+					_putchar(92);
 				}
 				else
 				{
-					putchar(32);
+					_putchar(32);
 				}
 			}
-			putchar(10);
+			_putchar(10);
 		}
 	}
 	else
 	{
-		putchar(10);
+		_putchar(10);
 	}
 }
