@@ -2,7 +2,6 @@
 /**
 * print_most_numbers - Short description, single line
 * main - print numbers
-* Description: 0 to 9 followed by new line
 * Return: void
 */
 int print_most_numbers(void)
