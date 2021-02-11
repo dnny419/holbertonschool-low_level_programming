@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_numbers - Short description, single line
+* print_most_numbers - Short description, single line
 * main - print numbers
 * Description: 0 to 9 followed by new line
 * Return: void
