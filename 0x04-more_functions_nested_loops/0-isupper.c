@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _isupper - determinate if the character is upper
+ * _isupper - determinate if c is upper
  * @c: character to determinate
  * Return: Always 0. success
  */
