@@ -1,11 +1,9 @@
 #include "holberton.h"
 /**
-* print_line - Short description, single line
-* @n: variable to determinate
-* main - print _
-* Description: according to the number type _
-* Return: void
-*/
+ * print_line - print _
+ * @n: variable to determinate
+ * Return: void
+ */
 void print_line(int n)
 {
 	int a;
