@@ -23,7 +23,7 @@ int main(void)
 		else if (((a % 5) == 0) && ((a % 3) == 0))
 		{
 			printf("FizzBuzz");
-			if(a < 99)
+			if (a < 99)
 			{
 				putchar(32);
 			}
