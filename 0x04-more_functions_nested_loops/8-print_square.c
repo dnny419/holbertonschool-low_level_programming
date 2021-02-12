@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_diagonal - printing squares
+ * print_square - printing squares
  * @size: number of lines
  *
  */
