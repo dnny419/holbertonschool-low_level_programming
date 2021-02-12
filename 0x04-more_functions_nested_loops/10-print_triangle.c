@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
  * print_triangle - make a fancy triangle!
  * @size: number of lines
