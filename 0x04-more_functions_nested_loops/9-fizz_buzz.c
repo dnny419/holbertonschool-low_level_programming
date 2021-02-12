@@ -10,23 +10,17 @@ int main(void)
 
 	for (a = 1; a <= n; a++)
 	{
-		if ((a % 15) == 0)
+		if ((a % 3) == 0 && (a % 5) != 0)
 		{
-			printf("FizzBuzz");
-			if (a  < n)
-			{
-				putchar(32);
-			}
+			printf("Fizz ");
 		}
-		else if ((a % 3) == 0)
+		else if ((a % 5) == 0 && (a % 3) != 0)
 		{
-			printf("Fizz");
-			putchar(32);
+			printf("Buzz ");
 		}
-		else if ((a % 5) == 0)
+		else if ((a % 5) == 0 && (a % 3) == 0)
 		{
-			printf("Buzz");
-			putchar(32);
+			printf("FizzBuzz ");
 		}
 		else
 		{
