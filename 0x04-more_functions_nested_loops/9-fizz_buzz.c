@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "holberton.h"
 /**
 * main - Program that prints the Fizz-Buzz test
 * Description: The “Fizz-Buzz test”
