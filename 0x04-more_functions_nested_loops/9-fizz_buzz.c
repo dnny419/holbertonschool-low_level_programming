@@ -14,21 +14,15 @@ int main(void)
 		{
 			if (((a % 3) == 0) && ((a % 5) != 0))
 			{
-				printf("Fizz");
-				putchar(32);
+				printf("Fizz ");
 			}
 			else if (((a % 5) == 0) && ((a % 3) != 0))
 			{
-				printf("Buzz");
-				putchar(32);
+				printf("Buzz ");
 			}
 			else if (((a % 5) == 0) && ((a % 3) == 0))
 			{
-				printf("FizzBuzz");
-				if (a < 99)
-				{
-					putchar(32);
-				}
+				printf("FizzBuzz ");
 			}
 			else
 			{
