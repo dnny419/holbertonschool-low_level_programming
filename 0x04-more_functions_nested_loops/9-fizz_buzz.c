@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - Program that prints the Fizz-Buzz test
-*
+* Description: The “Fizz-Buzz test”
 * Return: Always 0 (Success)
 */
 int main(void)
