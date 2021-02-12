@@ -34,6 +34,6 @@ int main(void)
 			printf("Buzz");
 		}
 	}
-	putchar(32);
+	printf("\n");
 	return (0);
 }
