@@ -6,7 +6,9 @@
 */
 int main(void)
 {
-	for (a = 1; a <= n; a++)
+	int a, b;
+	
+	for (a = 1; a <= 100; a++)
 	{
 		if(a % 15 == 0)
 		{
