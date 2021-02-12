@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-	int a, b, n = 100;
+	int a, b, n;
 
-	for (a = 1; a <= n; a++)
+	for (a = 1; a <= 100; a++)
 	{
 		if ((a % 3) == 0 && (a % 5) != 0)
 		{
