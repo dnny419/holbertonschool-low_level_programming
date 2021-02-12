@@ -6,12 +6,12 @@
  */
 void print_triangle(int size)
 {
-	int n = 20, a, b, c, d, e;
+	int a, b, c, d, e;
 
-	if (n > 0)
+	if (size > 0)
 	{
-		a = n;
-		b = n - 1;
+		a = size;
+		b = size - 1;
 
 		for (c = 1; c <= a; c++)
 		{
