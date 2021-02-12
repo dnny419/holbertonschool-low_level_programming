@@ -10,27 +10,34 @@ int main(void)
 
 	for (a = 1; a <= 100; a++)
 	{
-		if (((a % 3) == 0) && ((a % 5) != 0))
+		if (a < 99)
 		{
-			printf("Fizz");
-			putchar(32);
-		}
-		else if (((a % 5) == 0) && ((a % 3) != 0))
-		{
-			printf("Buzz");
-			putchar(32);
-		}
-		else if (((a % 5) == 0) && ((a % 3) == 0))
-		{
-			printf("FizzBuzz");
-			if (a < 99)
+			if (((a % 3) == 0) && ((a % 5) != 0))
 			{
+				printf("Fizz");
 				putchar(32);
+			}
+			else if (((a % 5) == 0) && ((a % 3) != 0))
+			{
+				printf("Buzz");
+				putchar(32);
+			}
+			else if (((a % 5) == 0) && ((a % 3) == 0))
+			{
+				printf("FizzBuzz");
+				if (a < 99)
+				{
+					putchar(32);
+				}
+			}
+			else
+			{
+				printf("%d ", a);
 			}
 		}
 		else
 		{
-			printf("%d ", a);
+			printf("Buzz");
 		}
 	}
 	putchar(32);
