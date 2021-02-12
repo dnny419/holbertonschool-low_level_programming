@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Program that prints the numbers from 00 to 99
+* main - Program that prints the Fizz-Buzz test
 *
 * Return: Always 0 (Success)
 */
