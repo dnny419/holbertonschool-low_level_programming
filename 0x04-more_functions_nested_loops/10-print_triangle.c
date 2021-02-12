@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_diagonal - make a fancy diagonal!
+ * print_diagonal - make a fancy triangle!
  * @size: number of lines
  *
  */
@@ -17,18 +17,18 @@ void print_triangle(int size)
 		{
 			for (d = 1; d <= b; d++)
 			{
-				putchar(32);
+				_putchar(32);
 			}
 			b--;
 			for (e = 1; e <= c; e++)
 			{
-				putchar(35);
+				_putchar(35);
 			}
-			putchar(10);
+			_putchar(10);
 		}
 	}
 	else
 	{
-		putchar(10);
+		_putchar(10);
 	}
 }
