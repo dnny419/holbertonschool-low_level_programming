@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_diagonal - make a fancy triangle!
+ * print_triangle - make a fancy triangle!
  * @size: number of lines
  *
  */
