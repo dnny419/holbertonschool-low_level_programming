@@ -12,17 +12,17 @@ int main(void)
 	{
 		if (a < 99)
 		{
-			if (((a % 3) == 0) && ((a % 5) != 0))
+			if (((a % 5) == 0) && ((a % 3) == 0))
+			{
+				printf("FizzBuzz ");
+			}
+			if (((a % 3) == 0))
 			{
 				printf("Fizz ");
 			}
-			else if (((a % 5) == 0) && ((a % 3) != 0))
+			else if (((a % 5) == 0))
 			{
 				printf("Buzz ");
-			}
-			else if (((a % 5) == 0) && ((a % 3) == 0))
-			{
-				printf("FizzBuzz ");
 			}
 			else
 			{
