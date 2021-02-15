@@ -1,6 +1,6 @@
 /**
-* reset_to_98 - Short description, single line
-* main - Reset pointer to 98
+* reset_to_98 - reset ptr to 98
+* @n: ptr to reset
 *
 * Return: void
 */
