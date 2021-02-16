@@ -4,7 +4,7 @@
 *
 * Return: void
 */
-void print_rev(char *s)
+void _puts(char *s)
 {
 	int a;
 
