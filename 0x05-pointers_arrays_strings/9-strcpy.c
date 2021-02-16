@@ -2,7 +2,7 @@
 /**
 * _strcpy - copy string pointed to by src
 * @dest: ptr dest
-* @n: ptr src
+* @src: ptr src
 *
 * Return: void
 */
