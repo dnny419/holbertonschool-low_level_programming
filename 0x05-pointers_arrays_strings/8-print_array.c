@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
 * print_array - elements of an array of integers
 * @a: ptr
