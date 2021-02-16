@@ -1,5 +1,5 @@
 /**
-* print_rev - print a string, followed by a new line
+* _puts - print a string, followed by a new line
 * @s: string
 *
 * Return: void
