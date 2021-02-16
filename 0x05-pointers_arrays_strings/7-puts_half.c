@@ -5,7 +5,7 @@
 *
 * Return: void
 */
-puts_half(char *str)
+void puts_half(char *str)
 {
 	int a, k;
 	int length;
