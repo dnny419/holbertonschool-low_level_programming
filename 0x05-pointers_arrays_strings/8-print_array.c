@@ -2,7 +2,7 @@
 /**
 * print_array - elements of an array of integers
 * @a: ptr
-* @n: number of elements 
+* @n: number of elements
 *
 * Return: void
 */
