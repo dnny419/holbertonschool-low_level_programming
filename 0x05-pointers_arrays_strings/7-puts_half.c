@@ -11,8 +11,8 @@ puts_half(char *str)
 	int length;
 	int length2;
 
-	length = _strlen(s) / 2;
-	length2 = _strlen(s);
+	length = _strlen(str) / 2;
+	length2 = _strlen(str);
 
 	for (a = length, k = 0; a <= length2; a++, k++)
 	{
