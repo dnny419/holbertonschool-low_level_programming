@@ -15,10 +15,10 @@ void puts_half(char *str)
 	{
 		if (b < i)
 		{
-			putchar(str[i]);
+			_putchar(str[i]);
 		}
 	}
-	putchar(10);
+	_putchar(10);
 }
 
 /**
