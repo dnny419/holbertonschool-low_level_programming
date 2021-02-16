@@ -21,6 +21,12 @@ puts_half(char *str)
 	putchar('\n');
 }
 
+/**
+* _strlen - get a string lenght
+* @s: string
+*
+* Return: a
+*/
 int _strlen(char *s)
 {
 	int a;
