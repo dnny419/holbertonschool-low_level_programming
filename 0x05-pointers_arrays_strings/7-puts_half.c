@@ -16,9 +16,9 @@ puts_half(char *str)
 
 	for (a = length, k = 0; a <= length2; a++, k++)
 	{
-		putchar(s[a]);
+		_putchar(s[a]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
 /**
