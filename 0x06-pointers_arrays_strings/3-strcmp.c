@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strncpy - copy a string
+ * _strcmp - compare string
  * @s1: ptr dest
  * @s2: ptr src
  *
@@ -14,7 +14,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (s1[i] != s2[i])
 		{
-			return(s1[i]-s2[i]);
+			return (s1[i] - s2[i]);
 		}
 	}
 	return (0);
