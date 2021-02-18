@@ -2,7 +2,7 @@
 /**
  * reverse_array - reverse an array
  * @a: ptr a
- *
+ * @n: n of elements
  * Return: void
 */
 void reverse_array(int *a, int n)
