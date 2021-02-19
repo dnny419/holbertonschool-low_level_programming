@@ -13,7 +13,7 @@ char *rot13(char *str)
 
 	s = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	s2 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	
+
 	for (a = 0; str[a] != '\0'; a++)
 	{
 		for (b = 0; b <= 52; b++)
