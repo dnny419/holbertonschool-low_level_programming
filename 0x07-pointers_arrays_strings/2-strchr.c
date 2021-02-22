@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _memcpy - Returns a pointer to the first occurrence
+ * _strchr - Returns a pointer to the first occurrence
  * @s: string
  * @c: character
  *
