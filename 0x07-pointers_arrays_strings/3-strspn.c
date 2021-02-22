@@ -10,7 +10,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j, count = 0;
 
-	if(s == NULL || accept == NULL)
+	if (s == NULL || accept == NULL)
 	{
 		exit(0);
 	}
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			for (j = 0 ; *(accept + j) != '\0'; j++)
 			{
-				if(*(s + i) == *(accept + j))
+				if (*(s + i) == *(accept + j))
 				{
 					count++;
 					break;
