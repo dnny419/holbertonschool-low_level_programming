@@ -14,7 +14,10 @@ char *_strstr(char *haystack, char *needle)
 	{
 		for (j = 0 ; *(needle + j) != '\0'; j++)
 		{
-			return (haystack + i + 5);
+			if (*(haystack + i) == 32)
+			{
+				return (haystack + i - j + 1);
+			}
 		}
 	}
 	return ('\0');
