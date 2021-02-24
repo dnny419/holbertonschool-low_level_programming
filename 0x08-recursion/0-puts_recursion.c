@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * rot13 - encode a string with rot13
- * @str: string to encode
+ * _puts_recursion - print the
+ * @s: string to print
  *
  * Return: void
 */
