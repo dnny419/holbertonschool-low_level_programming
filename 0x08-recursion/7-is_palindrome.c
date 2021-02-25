@@ -1,7 +1,7 @@
 /**
  * _strlen_recursion2 - count a string with recursion
  * @s: string to count
- * @s: integer to know positions
+ * @i: integer to know positions
  *
  * Return: count
 */
