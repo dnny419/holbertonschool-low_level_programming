@@ -45,7 +45,7 @@ int ifPal(char *s, int length, int i)
 	}
 }
 /**
- * is_prime_number - function to check if a
+ * is_palindrome - function to check if a
  * palindrome is a string
  * @s: string
  *
