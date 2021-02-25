@@ -7,14 +7,14 @@
 */
 int _strlen_recursion2(char *s, int i)
 {
-    if (s[i] != '\0')
-    {
-        return (_strlen_recursion2(s, i + 1));
-    }
-    else
-    {
-    	return (i - 1);
-    }
+	if (s[i] != '\0')
+	{
+		return (_strlen_recursion2(s, i + 1));
+	}
+	else
+	{
+		return (i - 1);
+	}
 }
 /**
  * ifPal - aux function to check if a
@@ -27,22 +27,22 @@ int _strlen_recursion2(char *s, int i)
 */
 int ifPal(char *s, int length, int i)
 {
-    if (s[i] == s[length])
-    {
-        return (ifPal(s, length - 1, i + 1));
-    }
-    else if (s[i] == s[length] || i > length)
-    {
-        return (1);
-    }
-    else if (s[i] != s[length])
-    {
-        return (0);
-    }
+	if (s[i] == s[length])
+	{
+		return (ifPal(s, length - 1, i + 1));
+	}
+	else if (s[i] == s[length] || i > length)
+	{
+		return (1);
+	}
+	else if (s[i] != s[length])
+	{
+		return (0);
+	}
 	else
-    {
-        return (0);
-    }
+	{
+		return (0);
+	}
 }
 /**
  * is_prime_number - function to check if a
@@ -53,8 +53,8 @@ int ifPal(char *s, int length, int i)
 */
 int is_palindrome(char *s)
 {
-    int length;
+	int length;
 
-    length = _strlen_recursion2(s, 0);
-    return (ifPal(s, length, 0));
+	length = _strlen_recursion2(s, 0);
+	return (ifPal(s, length, 0));
 }
