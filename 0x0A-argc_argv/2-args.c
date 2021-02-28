@@ -8,6 +8,12 @@
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s\n", argv[0]);
-	return (0);
+	int i = 0;
+    while (i < argc)
+    {
+        /* code */
+        printf("%s\n", argv[i]);
+        i++;
+    }
+    return (0);
 }
