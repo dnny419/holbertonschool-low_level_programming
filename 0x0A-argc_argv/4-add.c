@@ -6,7 +6,7 @@
  * isnumber - check if ptr is an int
  *
  * @n: number check
- * Return: 1 if number, 0 if not
+ * Return: 1 if number, 0 otherwise
  */
 int isnumber(char *n)
 {
