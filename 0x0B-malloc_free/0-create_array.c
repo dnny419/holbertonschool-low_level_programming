@@ -6,7 +6,7 @@
  * @size: number of arguments
  * @c: char to specify
  *
- * Return: formated malloc
+ * Return: char
 */
 char *create_array(unsigned int size, char c)
 {
