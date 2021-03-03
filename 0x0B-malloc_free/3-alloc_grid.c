@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
- * _strdup - function that returns a pointer to a newly allocated
- * space in memory which contains a copy of the string given as a parameter.
- * @str: string
+ * alloc_grid - function that returns a pointer to a 2
+ * dimensional array of integers
+ * @width: width
+ * @height: height
  *
  * Return: char
 */
