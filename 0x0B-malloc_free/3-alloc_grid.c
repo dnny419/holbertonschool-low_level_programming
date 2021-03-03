@@ -25,7 +25,7 @@ int **alloc_grid(int width, int height)
 
 		if (table[i] == NULL)
 		{
-			for (l = 0; l < i; l--)
+			for (l = 0; l < i; l++)
 				free(table[i]);
 			free(table);
 			return (NULL);
