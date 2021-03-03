@@ -31,9 +31,9 @@ int **alloc_grid(int width, int height)
 		if (table[i] == NULL)
 		{
 			/*free memory provided malloc fails to allocate it in the position i*/
-			for (l = 0; l <= i; l++)
+			for (l = 0; l < i; l++)
 			{
-				free(table[i]);
+				free(table[l]);
 			}
 			free(table);
 			return (NULL);
