@@ -1,52 +1,50 @@
-#include <stdlib.h>
 #include "holberton.h"
-/**
-* _strcat - concadenate two strings
-* @dest: ptr dest
-* @src: ptr src
-*
-* Return: dest
-*/
-char *_strcat(char *dest, char *src)
-{
-	int length, i;
+#include <stdlib.h>
 
-	for (length = 0; dest[length] != '\0'; length++)
-	{
-		length++;
-	}
-
-	for (i = 0; src[i] != '\0'; i++, ++length)
-	{
-		dest[length] = src[i];
-	}
-	dest[length] = 0;
-	return (dest);
-}
 /**
-* _strlen - get a string lenght
-* @s: string
-*
-* Return: a
-*/
+ * _strlen - function
+ * @s: string
+ * Return: i
+ */
 int _strlen(char *s)
 {
-	int a;
+	int i;
 
-	while (s[a] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		a++;
 	}
-	return (a);
+	return (i);
 }
+
 /**
- * alloc_grid - function that returns a pointer to a 2
- * dimensional array of integers
- * @ac: width
- * @av: height
- *
- * Return: char
-*/
+ * _strcat - function
+ * @dest: string destination
+ * @src: string 1
+ * Return: dest
+ */
+char *_strcat(char *dest, char *src)
+{
+	int i, j;
+
+	i = j = 0;
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	while (src[j] != '\0')
+	{
+		dest[i++] = src[j++];
+	}
+	dest[i] = '\0';
+	return (dest);
+}
+
+/**
+ * argstostr - function
+ * @ac: string
+ * @av: pointer x2
+ * Return: str
+ */
 char *argstostr(int ac, char **av)
 {
 	char *str;
