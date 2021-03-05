@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
- * _calloc - function that allocates memory for an array, using malloc
- * @mix: number of elements
+ * array_range - function that creates an array of integers.
+ * @min: number of elements
  * @max: size
  *
  * Return: Nothing.
