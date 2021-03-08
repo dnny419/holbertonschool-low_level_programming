@@ -11,8 +11,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	/** if the address is different from 0 we can then initialize its elements*/
 	if (d != 0)
 	{
-		(*d).name = name;
-		(*d).age = age;
-		(*d).owner = owner;
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
 	}
 }
