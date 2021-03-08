@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * init_dog - function that initializes the following elements:
+ * print_dog - function that prints a struct dog by address:
  * @d: ptr address of the dog info
  *
  */
@@ -19,7 +19,7 @@ void print_dog(struct dog *d)
 			printf("Name: (nil)\n");
 		}
 
-		printf("Age: %.6f\n", d->age);
+		printf("Age: %f\n", d->age);
 
 		if (d->owner != NULL)
 		{
