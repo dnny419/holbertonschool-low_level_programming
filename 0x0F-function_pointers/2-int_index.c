@@ -14,8 +14,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		return (-1);
 	}
-	/* else if cmp is different from 0 aka it does exist */
-	else if (cmp)
+	/* if cmp is different from 0 aka it does exist */
+	if (cmp)
 	{
 		for (int i = 0; i < size; i++)
 		{
