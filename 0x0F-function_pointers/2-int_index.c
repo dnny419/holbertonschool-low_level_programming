@@ -11,7 +11,11 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
-	/* future comment goes here */
+	/**
+	 * if array is equal to null OR size is less or equal to 0
+	 * OR cmp is equal to null
+	 * we will return -1 because... We can!
+	*/
 	if (array == NULL || size <= 0 || cmp == NULL)
 	{
 		return (-1);
@@ -23,6 +27,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 			return (i);
 		}
 	}
-	/* return -1 in any other weird scenario, DO NOT ask, it just works! */
+	/* return -1 in any other weird scenario, do NOT ask, it just works! */
 	return (-1);
 }
