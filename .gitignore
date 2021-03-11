@@ -11,3 +11,6 @@
 0x0F-function_pointers/c
 0x0F-function_pointers/2-main.c
 0x0F-function_pointers/calc
+0x10-variadic_functions/0-main.c
+0x10-variadic_functions/a
+0x10-variadic_functions/_putchar.c
