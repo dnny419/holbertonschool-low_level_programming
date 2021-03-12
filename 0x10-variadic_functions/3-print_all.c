@@ -55,7 +55,7 @@ void print_f(va_list v)
  */
 void print_all(const char *const format, ...)
 {
-	size_t i, j;
+	int i, j;
 	op_t ops[] = {
 		{"c", print_c},
 		{"s", print_s},
