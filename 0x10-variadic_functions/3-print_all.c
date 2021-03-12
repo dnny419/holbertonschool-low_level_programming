@@ -32,10 +32,7 @@ void print_s(va_list v)
 	{
 		str = "(nil)";
 	}
-	else
-	{
-		printf("%s", str);
-	}
+	printf("%s", str);
 }
 
 /**
