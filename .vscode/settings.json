@@ -3,5 +3,8 @@
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"editor.formatOnSave": true,
-	"code-runner.runInTerminal": true
+	"code-runner.runInTerminal": true,
+	"files.associations": {
+		"lists.h": "c"
+	}
 }
