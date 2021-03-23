@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * add_node_end - function that adds a new node at the end of a list_t list
+ * add_nodeint_end - function that adds a new node at the end of a list_t list
  * @head: double head pointer
- * @str: string
+ * @n: string
  * Return: the number of nodes
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
