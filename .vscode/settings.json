@@ -8,6 +8,7 @@
 		"lists.h": "c",
 		"stddef.h": "c",
 		"stdlib.h": "c",
-		"stdio.h": "c"
+		"stdio.h": "c",
+		"holberton.h": "c"
 	}
 }
