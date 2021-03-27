@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * get_bit - function that returns the value of a bit at a given index.
- * @n: number to find
+ * set_bit - function that sets the value of a bit to 1 at a given index.
+ * @n: number to set
  * @index: index of the number at a given string of numbers
  *
- * Return: number based on its index
+ * Return: 1 or -1 if an error occurred
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
