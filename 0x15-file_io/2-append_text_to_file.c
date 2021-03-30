@@ -14,7 +14,7 @@ size_t _strlen(char *str)
 	return (i);
 }
 /**
- * create_file - function that appends text at the end of a file.
+ * append_text_to_file - function that appends text at the end of a file.
  * @filename: name of the file to be written
  * @text_content: text to write on the file
  * Return: 1 on success, 0 otherwise.
