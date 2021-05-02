@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - function that returns the sum of all the data (n) of a linkedlist.
+ * sum_dlistint - function that returns the sum
+ * of all the data (n) of a linkedlist.
  * @head: head
  * Return: summed data otherwise 0 if the list is empty
  */
