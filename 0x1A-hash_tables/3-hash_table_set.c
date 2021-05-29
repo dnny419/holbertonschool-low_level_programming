@@ -49,7 +49,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
  * @key: key for the new node
  * @value: value for the new node
  *
- * Return: new code if it succeeded, NULL otherwise
+ * Return: new node if it succeeded, NULL otherwise
  */
 hash_node_t *create_node(const char *key, const char *value)
 {
